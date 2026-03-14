@@ -1,24 +1,47 @@
-# 🦞 Awesome OpenClaw (龙虾) 中文资源大全
+# 🦞 OpenClaw (龙虾) 中文本地部署指南与报错求助专区
 
-[![Website](https://img.shields.io/badge/Official_Site-龙虾俱乐部-eb4f34?style=for-the-badge)](https://longxiabot.club)
-[![Updates](https://img.shields.io/badge/技能库-持续更新中-blue?style=for-the-badge)](https://longxiabot.club/skills)
+[![Official Site](https://img.shields.io/badge/主站-龙虾俱乐部_(longxiabot.club)-eb4f34?style=for-the-badge)](https://longxiabot.club)
+[![Skill Hub](https://img.shields.io/badge/资源-100%2B_中文_Skill_插件库-blue?style=for-the-badge)](https://longxiabot.club/skills)
+[![Support](https://img.shields.io/badge/服务-专家一对一极客救援-orange?style=for-the-badge)](https://longxiabot.club/expert-setup)
 
-收录全网最优质的 OpenClaw (龙虾) AI 智能体本地部署教程、报错排查方案与实战 Skill 插件包。
+欢迎来到 **龙虾俱乐部 (LongxiaBot Club)** 的官方 GitHub 交流仓库！
 
-🎉 **完整图文教程、最新 Skill 下载及专家代部署服务，请访问主站：[龙虾俱乐部 (longxiabot.club)](https://longxiabot.club)**
+本仓库主要用于 **OpenClaw (龙虾) AI 智能体** 的中文本地化文档存档、常见报错反馈（Issues）以及新手答疑。由于开源生态的 Skill 插件更新极快，**最新、最完整的图文教程与开箱即用的配置文件，请统一前往我们的主站获取。**
 
-## 📑 目录 (Table of Contents)
-- [新手起步 (Getting Started)](#新手起步)
-- [核心 Skill 插件库 (Skills)](#核心-skill-插件库)
-- [常见报错与排查 (Troubleshooting)](#常见报错)
+👉 **[点击访问：龙虾俱乐部 (longxiabot.club) - 全网最全的 OpenClaw 中文实战大本营](https://longxiabot.club)**
 
-## 🚀 新手起步
-* [OpenClaw Windows 11 保姆级本地部署指南](https://longxiabot.club/tutorials/windows-setup)
-* [如何让龙虾接入智谱/Kimi 等国内 API？](https://longxiabot.club/tutorials/api-config)
+---
 
-## 📦 核心 Skill 插件库
-* 👉 [浏览完整的 100+ 中文插件市场](https://longxiabot.club/skills)
-* [社媒大师：自动监控推特热点并生成摘要]
-* [飞书小助手：一键总结群聊与待办提取]
+## 🚀 核心导航 (快速直达主站)
 
-...
+- 📖 **[零基础保姆级部署教程 (Windows/macOS)](https://longxiabot.club/tutorials/getting-started)**
+- 🧩 **[中文 Skill 插件市场 (接入微信/飞书/推特等)](https://longxiabot.club/skills)**
+- ⚡ **[API 与本地大模型配置指南 (低显存优化)](https://longxiabot.club/tutorials/advanced-config)**
+- 🚨 **[常见报错排查字典 (解决显存不足、网络超时等)](https://longxiabot.club/tutorials/troubleshooting)**
+
+---
+
+## 🛠️ 试读：OpenClaw 常见环境报错速查
+
+*(以下内容节选自龙虾俱乐部教程库，完整版请访问主站)*
+
+### 1. 运行 `openclaw hatch` 时提示网络连接超时？
+这通常是因为拉取依赖时 GitHub 或外网镜像被墙。
+**解决方案：** 请确保你的终端（Terminal/PowerShell）已开启全局代理。
+Windows 环境下，可在终端执行：
+```powershell
+set http_proxy=[http://127.0.0.1](http://127.0.0.1):你的端口
+set https_proxy=[http://127.0.0.1](http://127.0.0.1):你的端口
+💡 完整代理配置与国内镜像源替换教程，请查看：网络配置终极指南
+
+### 2. 报错 CUDA out of memory？
+你的显存不足以运行当前的本地开源大模型。
+**解决方案：**
+如果你只有 8G 或更低的显存，强烈建议切换为调用云端 API（如 Kimi、智谱或 Claude），对本地显卡零要求。
+💡 如何修改 config.yaml 接入国内免费大模型 API？请查看：低配置电脑运行方案
+
+## 💬 提问与求助 (Issues 规则)
+如果你在本地部署 OpenClaw 或安装 Skill 时遇到了本仓库及主站未能解决的奇葩报错，欢迎在 Issues 面板 中提出。
+
+## 声明
+本仓库及龙虾俱乐部仅提供 OpenClaw 开源框架的技术交流与配置教程。我们不提供任何大型语言模型（LLM）的直接下载服务，请用户在遵守当地法律法规的前提下，合法合规地使用相关 AI 技术与服务。
