@@ -2,7 +2,6 @@
 
 [![Official Site](https://img.shields.io/badge/主站-龙虾俱乐部_(longxiabot.club)-eb4f34?style=for-the-badge)](https://longxiabot.club)
 [![Skill Hub](https://img.shields.io/badge/资源-100%2B_中文_Skill_插件库-blue?style=for-the-badge)](https://longxiabot.club/skills)
-[![Support](https://img.shields.io/badge/服务-专家一对一极客救援-orange?style=for-the-badge)](https://longxiabot.club/expert-setup)
 
 欢迎来到 **龙虾俱乐部 (LongxiaBot Club)** 的官方 GitHub 交流仓库！
 
@@ -32,6 +31,7 @@ Windows 环境下，可在终端执行：
 ```powershell
 set http_proxy=[http://127.0.0.1](http://127.0.0.1):你的端口
 set https_proxy=[http://127.0.0.1](http://127.0.0.1):你的端口
+```
 💡 完整代理配置与国内镜像源替换教程，请查看：网络配置终极指南
 
 ### 2. 报错 CUDA out of memory？
