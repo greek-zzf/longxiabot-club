@@ -13,10 +13,10 @@
 
 ## 🚀 核心导航 (快速直达主站)
 
-- 📖 **[零基础保姆级部署教程 (Windows/macOS)](https://longxiabot.club/tutorials/getting-started)**
+- 📖 **[零基础保姆级部署教程 (Windows/macOS)](https://longxiabot.club/getting-started)**
 - 🧩 **[中文 Skill 插件市场 (接入微信/飞书/推特等)](https://longxiabot.club/skills)**
-- ⚡ **[API 与本地大模型配置指南 (低显存优化)](https://longxiabot.club/tutorials/advanced-config)**
-- 🚨 **[常见报错排查字典 (解决显存不足、网络超时等)](https://longxiabot.club/tutorials/troubleshooting)**
+- ⚡ **[API 与本地大模型配置指南 (低显存优化)](https://longxiabot.club/docs/models/provider-overview)**
+- 🚨 **[常见报错排查字典 (解决显存不足、网络超时等)](https://longxiabot.club/docs/appendix/faq)**
 
 ---
 
